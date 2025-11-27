@@ -82,6 +82,6 @@
     setTimeout(() => {
         checkForumPostCondition();  // 页面加载后立即检查发表论坛帖子条件
         clickPlayButton();  // 先点击播放按钮
-        setInterval(checkValueAndClickNext, 5000);  // 启动定时检查目标值
+        setInterval(checkValueAndClickNext, 7000);  // 启动定时检查目标值
     }, 3000);  // 等待 3 秒，确保页面加载完毕
 })();
