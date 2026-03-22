@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SYSU在线教学平台助手
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  中山大学在线教育平台心理线上课等课程自动跳转。等待页面加载完成后，首先点击播放按钮，检查目标值（播放进度），然后点击下一个视频按钮。若检测到“发表论坛帖子”则直接跳转到下一个活动
 // @author       蓝厘榨只因
 // @license      MIT
