@@ -17,7 +17,7 @@
     const targetValue = 100;  // 设置目标值为 100（例如：观看进度达到 100%）
     const targetSelector = '.number.num-bfjd span';  // 修改后的目标值选择器
     const buttonSelector1 = '#next-activity-link';  // 第一个按钮的选择器（跳转到下一个活动或视频）
-    const playButtonSelector = '.prism-big-play-btn';  // 播放按钮的选择器
+    const playButtonSelector = '.vjs-big-play-button[title="播放"]';  // 播放按钮的选择器
     const forumPostSelector = 'span.font-weight-normal';  // 用于检测"发表论坛帖子"的选择器
 
     // 检测“发表论坛帖子”的条件，并立即跳转到下一个视频
